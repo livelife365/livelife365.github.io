@@ -162,7 +162,7 @@ function registerGUIEvents() {
     addEvent("keyup", document, keyUpPreprocess);
     addEvent("unload", window, ExportSave);
     Iodine.attachSpeedHandler(function (speed) {
-        document.title = "Homework - " + speed;
+        document.title = "WebAssign;
     });
 }
 function lowerVolume() {
