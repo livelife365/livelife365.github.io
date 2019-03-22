@@ -32,8 +32,6 @@ var games = {
     "gamewatch4":"Game & Watch Gallery 4",
     "goldensun":"Golden Sun",
     "gunstar_super_heroes":"Gunstar Super Heroes",
-    "ham_ham_games": "Ham Ham Games",
-    "hamtaro_rainbow_rescue": "Hamtaro Rainbow Rescue",
     "hamtaro_heartbreak":"Hamtaro - Ham-Ham Heartbreak",
     "kirbymirror":"Kirby & The Amazing Mirror",
     "kirbynightmare":"Kirby: Nightmare in Dreamland",
@@ -162,7 +160,7 @@ function registerGUIEvents() {
     addEvent("keyup", document, keyUpPreprocess);
     addEvent("unload", window, ExportSave);
     Iodine.attachSpeedHandler(function (speed) {
-        document.title = "WebAssign";
+        document.title = "Homework - " + speed;
     });
 }
 function lowerVolume() {
