@@ -32,6 +32,8 @@ var games = {
     "gamewatch4":"Game & Watch Gallery 4",
     "goldensun":"Golden Sun",
     "gunstar_super_heroes":"Gunstar Super Heroes",
+    "ham_ham_games": "Ham Ham Games",
+    "hamtaro_rainbow_rescue": "Hamtaro Rainbow Rescue",
     "hamtaro_heartbreak":"Hamtaro - Ham-Ham Heartbreak",
     "kirbymirror":"Kirby & The Amazing Mirror",
     "kirbynightmare":"Kirby: Nightmare in Dreamland",
@@ -97,9 +99,7 @@ var games = {
     "warioland4":"Wario Land 4",
     "wario_ware":"Wario Ware Inc",
     "zelda_past":"The Legend of Zelda: A Link to the Past",
-    "zelda_minish":"The Legend of Zelda: The Minish Cap",
-    "ham_ham_games": "Ham Ham Games",
-    "hamtaro_rainbow_rescue": "Hamtaro Rainbow Rescue"
+    "zelda_minish":"The Legend of Zelda: The Minish Cap"
 };
 var Iodine = null;
 var Blitter = null;
